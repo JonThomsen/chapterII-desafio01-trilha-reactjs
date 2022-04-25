@@ -69,9 +69,9 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
 
   const removeProduct = (productId: number) => {
     try {
-      console.log('teste')
+      //console.log('teste')
     } catch {
-      toast.error('Erro na remoção do produto');
+      //toast.error('Erro na remoção do produto');
     }
   };
 
@@ -80,9 +80,9 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
     amount,
   }: UpdateProductAmount) => {
     try {
-      console.log('teste')
+      //console.log('teste')
     } catch {
-      toast.error('Quantidade solicitada fora de estoque');
+      //toast.error('Quantidade solicitada fora de estoque');
     }
   };
 
